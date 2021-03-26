@@ -26,7 +26,8 @@ import com.google.ar.sceneform.ux.TransformableNode;
 public class MainActivity extends AppCompatActivity {
 
     private ArFragment mArFragment;
-    private String Model_URL = "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf";
+   private String Model_URL = "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf";
+  // private String Model_URL = "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/ToyCar/glTF/ToyCar.gltf";
     private ModelRenderable mModelRenderable;
     private static final String TAG = "MainActivity";
     private static final double MIN_OPENGL_VERSION = 3.0;
